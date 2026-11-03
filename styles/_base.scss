@@ -1,0 +1,16 @@
+
+@import "mixins";
+@import "colors";
+@import "fonts";
+
+body{
+    font-family:$font-proxima-nova;
+    background-color: $color-black;
+    color:$color-white;
+}
+button{
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,33 @@
+
+
+@import "mixins";
+@import "colors";
+@import "fonts";
+
+.link-primary{
+
+    background-color: $color-white;
+    color:black;
+    font-family:$font-montserrat-alt;
+
+    &:hover{
+
+        background-color: $color-orange;
+        color:$color-white;
+    }
+
+}
+
+.link-secondary{
+  background-color: $color-black-two;
+  color:$color-white;
+  border:1px solid $color-gray-two;
+  font-family:$font-montserrat-alt;
+
+  &:hover{
+    // background-color: $color-white;
+    color:$color-orange;
+    border:1px solid $color-orange;
+  }
+}
+

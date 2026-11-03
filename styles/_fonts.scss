@@ -1,0 +1,56 @@
+@use "sass:map";
+
+@font-face {
+  font-family: "Montserrat Alternate";
+  src: url("/fonts/montserraatalternate-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Alternate ExtraBold";
+  src: url("/fonts/montserratalternate-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Olive Village";
+  src: url("/fonts/olivevillage-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/proximanova-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+$font-montserrat-alt: "Montserrat Alternate", sans-serif;
+$font-montserrat-alt-extrabold: "Montserrat Alternate ExtraBold", sans-serif;
+$font-olive-village: "Olive Village", cursive;
+$font-proxima-nova: "Proxima Nova", sans-serif;
+
+.font-montserrat-alt {
+  font-family: $font-montserrat-alt;
+}
+
+.font-montserrat-alt-extrabold {
+  font-family: $font-montserrat-alt-extrabold;
+  font-weight: 800;
+}
+
+.font-olive-village {
+  font-family: $font-olive-village;
+}
+
+.font-proxima-nova {
+  font-family: $font-proxima-nova;
+}
+

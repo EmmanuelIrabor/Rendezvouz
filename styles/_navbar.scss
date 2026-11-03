@@ -1,0 +1,24 @@
+
+@import "mixins";
+@import "colors";
+@import "fonts";
+
+.navbar-item{
+
+    font-family: $font-montserrat-alt;
+    color:$color-gray-two;
+    text-transform: uppercase;
+
+    &:hover{
+
+        color:$color-white;
+    }
+
+
+    &.active{
+        color:$color-orange;
+        // text-decoration: underline;
+        font-weight: bold;
+        border-bottom: 2px solid $color-orange;
+    }
+}

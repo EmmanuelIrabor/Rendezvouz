@@ -1,0 +1,73 @@
+/* src/app/styles/_colors.scss */
+
+// Rendezvouz Brand Colors
+$color-orange: #FF6900;
+$color-black: #000000;
+$color-black-two:#101010;
+$color-black-three:#232323;
+$color-white: #FFFFFF;
+$color-gray: #333333;
+$color-gray-two: #a9a9a9;
+
+// Background colors
+.bg-orange {
+  background-color: $color-orange;
+}
+
+.bg-black {
+  background-color: $color-black;
+}
+.bg-black-two {
+  background-color: $color-black-two;
+}
+.bg-black-three {
+  background-color: $color-black-three;
+}
+
+.bg-white {
+  background-color: $color-white;
+}
+
+.bg-gray {
+  background-color: $color-gray;
+}
+
+// Text colors
+.text-orange {
+  color: $color-orange;
+}
+
+.text-black {
+  color: $color-black;
+}
+
+.text-white {
+  color: $color-white;
+}
+
+
+.text-gray {
+  color: $color-gray;
+}
+
+.text-gray-two{
+
+  color:$color-gray-two;
+}
+
+// Border colors
+.border-orange {
+  border-color: $color-orange;
+}
+
+.border-black {
+  border-color: $color-black;
+}
+
+.border-white {
+  border-color: $color-white;
+}
+
+.border-gray {
+  border-color: $color-gray;
+}

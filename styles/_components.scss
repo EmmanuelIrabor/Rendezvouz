@@ -1,0 +1,14 @@
+.top-box{
+
+    border: 1px solid $color-gray-two;
+    border-right:none;
+    border-left:none;
+
+}
+.hero-banner{
+
+    background-image: url('../public/images/cohort.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:1px solid $color-gray-two;
+}
