@@ -8,7 +8,7 @@ import BlinkingDot from "@/components/ui/BlinkingDot";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars , faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import {ArrowUpRightIcon} from "@phosphor-icons/react";
+import {ArrowUpRightIcon , BroadcastIcon} from "@phosphor-icons/react";
 
 export default function Loader(){
 
@@ -72,7 +72,7 @@ export default function Loader(){
 
            <p className="font-montserrat-alt font-bold">The Sound & Form Salon</p>
 
-            <ArrowUpRightIcon size={20} />
+            <BroadcastIcon size={20} />
 
        </div>
 
