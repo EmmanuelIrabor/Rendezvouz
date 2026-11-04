@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: "Montserrat Alternate ExtraBold";
-  src: url("/fonts/montserratalternate-ExtraBold.ttf") format("truetype");
+  font-family: "Montserrat Alternate Bold";
+  src: url("/fonts/montserratalternate-Bold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -33,7 +33,7 @@
 }
 
 $font-montserrat-alt: "Montserrat Alternate", sans-serif;
-$font-montserrat-alt-extrabold: "Montserrat Alternate ExtraBold", sans-serif;
+$font-montserrat-alt-bold: "Montserrat Alternate Bold", sans-serif;
 $font-olive-village: "Olive Village", cursive;
 $font-proxima-nova: "Proxima Nova", sans-serif;
 
@@ -41,8 +41,8 @@ $font-proxima-nova: "Proxima Nova", sans-serif;
   font-family: $font-montserrat-alt;
 }
 
-.font-montserrat-alt-extrabold {
-  font-family: $font-montserrat-alt-extrabold;
+.font-montserrat-alt-bold {
+  font-family: $font-montserrat-alt-bold;
   font-weight: 800;
 }
 

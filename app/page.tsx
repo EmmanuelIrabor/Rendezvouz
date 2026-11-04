@@ -51,8 +51,8 @@ export default function Loader(){
                 <p className="text-xss  text-gray-two">GLOBAL CHAPTER NETWORK</p>
               </div>
              </div>
-                    <h1 className="xl:text-7xl text-2xl font-montserrat-alt uppercase font-extrabold mt-5">where creative culture meets collective ambition</h1>
-        <p className=" mt-2 text-gray-two">Rendezvous is a curated lunchpad of 200+ managers, creatives and visionary founders across global industries. We turn social serendipity into ventures , creative works , and purposful growth.</p>
+                    <h1 className="xl:text-7xl text-4xl lg:text-2xl font-montserrat-alt-bold  uppercase font-extrabold mt-5">where creative culture meets collective ambition</h1>
+        <p className=" mt-2 text-gray-two text-xs">Rendezvous is a curated lunchpad of 200+ managers, creatives and visionary founders across global industries. We turn social serendipity into ventures , creative works , and purposful growth.</p>
 
         <div className="flex gap-4 items-center mt-5">
  <Link href={'/'} className="px-5 py-2 link-primary rounded-full text-xss md:text-xs font-bold">JOIN 200+ MEMBERS</Link>
