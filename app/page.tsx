@@ -9,6 +9,8 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight, faBars , faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import {ArrowUpRightIcon , BroadcastIcon} from "@phosphor-icons/react";
+import { Aurora } from "@/components/aurora";
+
 
 export default function Loader(){
 
@@ -16,8 +18,8 @@ export default function Loader(){
 
   return (
     <>
-      {/* <Image src={Logo} className="" alt="{}"></Image> */}
-        <GradientBox className="-mx-5 xl:-mx-10 px-5 xl:px-10 h-full">
+      
+        <Aurora className="-mx-5 xl:-mx-10 px-5 xl:px-10 h-full">
       <NavBar/>
 
        <div className="top-box -mx-5 xl:-mx-10 px-5 xl:px-10 mt-5 py-2 flex justify-between items-center">
@@ -110,7 +112,7 @@ export default function Loader(){
        
 
       </section>
-       </GradientBox>
+       </Aurora>
     </>
   );
 }
