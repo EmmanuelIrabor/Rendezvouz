@@ -1,3 +1,7 @@
+@use "mixins";
+@use "colors";
+@use "fonts";
+
 .top-box{
 
     border: 1px solid $color-gray-two;
